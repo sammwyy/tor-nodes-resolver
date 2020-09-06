@@ -17,6 +17,7 @@ The project internally downloads a list of known nodes from [this file](https://
 ### Index
 - [For Java](https://github.com/sammwyy/tor-nodes-resolver/tree/master/java)
 - [For NodeJS](https://github.com/sammwyy/tor-nodes-resolver/tree/master/nodejs)
+- [For Python](https://github.com/sammwyy/tor-nodes-resolver/tree/master/python)
 
 ### How to use
 #### Java
@@ -44,4 +45,12 @@ setTimeout(() => {
     console.log(tnr.isNode("45.154.35.252"));
     console.log(tnr.isNode("11.22.33.44"));
 }, 500);
+```
+
+#### Python
+```python
+import TorNodesResolver
+
+print(str(TorNodesResolver.isNode("45.154.35.252")))
+print(str(TorNodesResolver.isNode("11.22.33")))
 ```
