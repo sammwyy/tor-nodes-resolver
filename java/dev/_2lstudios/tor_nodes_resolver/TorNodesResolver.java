@@ -13,7 +13,7 @@ public class TorNodesResolver {
     public List<String> nodes = new ArrayList<String>();
 
     public TorNodesResolver () {
-        final String url = "https://raw.githubusercontent.com/sammwyy/tor-nodes-resolver/master/assets/nodes.txt";
+        final String url = "https://check.torproject.org/torbulkexitlist";
 
         try {
             final String content = getNodeListFromUrl(url);
