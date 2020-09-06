@@ -1,6 +1,10 @@
 <img src="https://github.com/sammwyy/tor-nodes-resolver/blob/master/assets/icon.png" width="128px" align="left"><h3>Tor Nodes Resolver</h3>
 <p>Resolve or check if an IP Address is a tor exit/node</p>
-<p><img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/java.svg"> <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/js.svg"></p>
+<p>
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/java.svg"> 
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/js.svg">
+    <img src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg">
+</p>
 
 <hr>
 
