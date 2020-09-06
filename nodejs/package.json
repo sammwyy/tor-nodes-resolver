@@ -1,0 +1,11 @@
+{
+  "name": "tor-nodes-resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tnr.test.js"
+  },
+  "author": "sammwy",
+  "license": "ISC"
+}
