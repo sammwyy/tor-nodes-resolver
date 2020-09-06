@@ -5,7 +5,7 @@ class TorNodesResolver {
         let self = this;
 
         (async function() {
-            let url = "https://raw.githubusercontent.com/sammwyy/tor-nodes-resolver/master/assets/nodes.txt";
+            let url = "https://check.torproject.org/torbulkexitlist";
             let content = await downloadFile(url).catch((e) => {
                 throw e;
             });
