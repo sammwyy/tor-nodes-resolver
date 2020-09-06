@@ -9,3 +9,7 @@ This project aims to detect TOR nodes to discover if the request comes from here
 
 ### How does this work?
 The project internally downloads a list of known nodes from [this file](https://raw.githubusercontent.com/sammwyy/tor-nodes-resolver/master/assets/nodes.txt), it can also make an HTTP request to query using an API.
+
+### Index
+- [For Java](https://github.com/sammwyy/tor-nodes-resolver/tree/master/java)
+- [For NodeJS](https://github.com/sammwyy/tor-nodes-resolver/tree/master/nodejs)
