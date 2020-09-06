@@ -13,3 +13,20 @@ The project internally downloads a list of known nodes from [this file](https://
 ### Index
 - [For Java](https://github.com/sammwyy/tor-nodes-resolver/tree/master/java)
 - [For NodeJS](https://github.com/sammwyy/tor-nodes-resolver/tree/master/nodejs)
+
+### How to use
+#### Java
+```java
+import dev._2lstudios.tor_nodes_resolver.TorNodesResolver;
+
+public class Test {
+
+    public static void main (String[] args) {
+        TorNodesResolver tnr = new TorNodesResolver();
+
+        System.out.println(tnr.isNode("45.154.35.252"));
+        System.out.println(tnr.isNode("11.22.33.44"));
+    }   
+
+}
+```
