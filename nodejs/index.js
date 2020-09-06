@@ -19,15 +19,8 @@ class TorNodesResolver {
     }
 
     isNode (ip) {
-        if (this.list == null) {
-            return {
-                error: "TNR Module is not ready yet! Reason: Downloading nodes cache database..."
-            }
-        } else {
-            return {
-                error: null, ip, isTorNode: this.list.includes(ip)
-            }
-        }
+        let list = this.list || [];
+        return list.includes(ip)
     }  
 }
 
